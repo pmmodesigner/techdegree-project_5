@@ -1,0 +1,79 @@
+* {
+  font-family: 'Taviraj', serif ;
+}
+
+body {
+  background: rgb(226,238,226);
+  background: linear-gradient(0deg, rgba(226,238,226,1) 0%, rgba(255,255,255,1) 100%);
+  height: 100vh;
+}
+
+h1 {
+  color: #354735;
+  font-size: 3em;
+  font-weight: 900;
+  font-style: italic;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 1.15em;
+}
+
+input {
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+input::placeholder {
+  padding-top: 5px;
+}
+
+input[id="search"] {
+  display: block;
+  height: 25px;
+}
+
+.section-intro {
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.section-main {
+  margin: auto;
+}
+
+.photo-grid {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.photo-thumbnail {
+  height: 200px;
+  width: 200px;
+  border: 4px solid white;
+  box-shadow: 1px 1px 15px #EEE;
+  /* cursor: pointer; */
+  margin-bottom: 65px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1000px) {
+
+  .section-intro {
+    width: 90%;
+  }
+
+  .section-main {
+    width: 90%;
+  }
+
+}
